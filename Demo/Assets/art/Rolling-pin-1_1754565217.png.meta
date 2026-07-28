@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rolling-pin-1_1754565217_0: -2706192127509096995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
