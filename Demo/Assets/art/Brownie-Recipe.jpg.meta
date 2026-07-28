@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Brownie-Recipe_0: 5619410044702079846
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
