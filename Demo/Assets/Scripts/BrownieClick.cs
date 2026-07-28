@@ -6,7 +6,9 @@ using TMPro;
 public class BrownieClick : MonoBehaviour
 {
     public TMP_Text VisualCounter;
+    public Animator Animator;
     public int Cookiecounter;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +20,12 @@ public class BrownieClick : MonoBehaviour
     {
         
     }
+
     void OnMouseDown()
     {
         Cookiecounter += 1;
         Debug.Log(Cookiecounter);
+        Animator.SetTrigger("Clicked");
         VisualCounter.text = Cookiecounter.ToString();
     } 
 }
