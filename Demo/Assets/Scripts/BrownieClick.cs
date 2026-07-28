@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class BrownieClick : MonoBehaviour
 {
+    public TMP_Text VisualCounter;
     public int Cookiecounter;
     // Start is called before the first frame update
     void Start()
@@ -20,5 +22,6 @@ public class BrownieClick : MonoBehaviour
     {
         Cookiecounter += 1;
         Debug.Log(Cookiecounter);
-    }
+        VisualCounter.text = Cookiecounter.ToString();
+    } 
 }
