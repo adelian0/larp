@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      zeus god of war_0: 6140127203962615162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
