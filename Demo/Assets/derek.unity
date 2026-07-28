@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 38241977}
   - component: {fileID: 38241978}
   m_Layer: 0
-  m_Name: images (2)_0
+  m_Name: BROWNIE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -647,7 +647,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -370, y: -170}
+  m_AnchoredPosition: {x: -367.33, y: -169.67}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &714918605
