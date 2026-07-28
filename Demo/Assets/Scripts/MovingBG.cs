@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovingBG : MonoBehaviour
 { 
-    public int speed;
+    public float speed;
     public float boundary;
     public GameObject bg;
     private Vector3 startingPos;
