@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d7d457a1e84ec234f812f9710ce2b00e
+guid: dba7af270676b36469297fa05be41882
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7048609356154887283
-    second: bgBlue_0
+      213: -8070482248536224329
+    second: Gerald-G-Fast-Food-Pies-FF-Menu-6_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bgBlue_0
+      name: Gerald-G-Fast-Food-Pies-FF-Menu-6_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 512
-        height: 512
+        y: 105
+        width: 600
+        height: 389
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37c5b124dd0b1d160800000000000000
-      internalID: 7048609356154887283
+      spriteID: 7bd07e97723efff80800000000000000
+      internalID: -8070482248536224329
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      bgBlue_0: 7048609356154887283
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
