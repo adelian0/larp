@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4fafb107b022b4c418ab892cbe332f49
+guid: 0f63548ca23367941987b80e2e826a6a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9117183054550206786
-    second: pngtree-grandpa-clipart-cartoon-character-old-man-old-man-cartoon-eds-vector-png-image_6808356_0
+      213: 532282208441007744
+    second: images (1)_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pngtree-grandpa-clipart-cartoon-character-old-man-old-man-cartoon-eds-vector-png-image_6808356_0
+      name: images (1)_0
       rect:
         serializedVersion: 2
-        x: 105
-        y: 7
-        width: 150
-        height: 347
+        x: 0
+        y: 0
+        width: 447
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb6f2591152497180800000000000000
-      internalID: -9117183054550206786
+      spriteID: 08ef26239db036700800000000000000
+      internalID: 532282208441007744
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pngtree-grandpa-clipart-cartoon-character-old-man-old-man-cartoon-eds-vector-png-image_6808356_0: -9117183054550206786
+      images (1)_0: 532282208441007744
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
