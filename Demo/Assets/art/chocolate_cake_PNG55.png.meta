@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chocolate_cake_PNG55_0: 6620755567014516782
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

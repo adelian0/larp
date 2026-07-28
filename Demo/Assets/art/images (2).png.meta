@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5cc450f311e5a814a9a029decd347f3d
+guid: 9879a7180f7a3fb49b846c051386f3ea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -697068224102198884
-    second: Brownie_transparent_0
+      213: 8420485207997377320
+    second: images (2)_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Brownie_transparent_0
+      name: images (2)_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 10
-        width: 269
-        height: 204
+        x: 16
+        y: 20
+        width: 498
+        height: 307
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c911d26b4248356f0800000000000000
-      internalID: -697068224102198884
+      spriteID: 82b6d1bdea29bd470800000000000000
+      internalID: 8420485207997377320
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Brownie_transparent_0: -697068224102198884
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
