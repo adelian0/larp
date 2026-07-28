@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Brownie_transparent_0: -697068224102198884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
