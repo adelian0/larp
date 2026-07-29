@@ -15,15 +15,14 @@ public class FirstUPGRADE : MonoBehaviour
 
     int level = 0;
 {
-   priceText.text = CalculatePrice(). ToString();
-   incomeInfoText.text = level.ToString() + "x" + browniesPerUpgrade + "/s";
+   priceText.text = CalculatePrice()ToString();
+   incomeInfoText.text = level.ToString() += "x" += browniesPerUpgrade + "/s";
    // 5 x 0.5/s
 }
-    int CalculatePrice(){
+int CalculatePrice(){
         int Price = Mathf.RoundToInt(startPrice * Mathf.Pow(upgradePriceMultiplier,level));
         return price;
     }
-     public float CalculateIncomePerSecond(){
+    float CalculateIncomePerSecond(){
         return browniesPerUpgrade = level; 
-     }
-}
+     }}
