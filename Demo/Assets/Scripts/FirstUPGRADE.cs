@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class FirstUPGRADE : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("Components")]
+    public TMP_text priceText; 
+    public TMP_text incomeInfoText; 
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public int startPrice = 15;
+    public float upgradePriceMultiplier;
+    public float browniesPerUpgrade 0.1f ;
+ 
+
+    int level = 0;
+{
+   priceText.text = CalculatePrice(). ToString();
+   incomeInfoText.text = level.ToString() + "x" + browniesPerUpgrade + "/s";
+   // 5 x 0.5/s
+}
+    int CalculatePrice(){
+        int Price = Mathf.RoundToInt(startPrice * Mathf.Pow(upgradePriceMultiplier,level));
+        return price;
     }
+     public float CalculateIncomePerSecond(){
+        return browniesPerUpgrade = level; 
+     }
 }
