@@ -23,6 +23,7 @@ public class BrownieClick : MonoBehaviour
 
     void OnMouseDown()
     {
+        
         Cookiecounter += 1;
         Debug.Log(Cookiecounter);
         Animator.SetTrigger("Clicked");
