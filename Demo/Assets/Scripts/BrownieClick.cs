@@ -8,6 +8,7 @@ public class BrownieClick : MonoBehaviour
     public TMP_Text VisualCounter;
     public Animator Animator;
     public int Cookiecounter;
+    public AudioSource ClickSound;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,7 @@ public class BrownieClick : MonoBehaviour
 
     void OnMouseDown()
     {
-        
+        ClickSound.Play();
         Cookiecounter += 1;
         Debug.Log(Cookiecounter);
         Animator.SetTrigger("Clicked");
