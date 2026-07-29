@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Your paragraph text (3)_0: -8528303522588052170
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
