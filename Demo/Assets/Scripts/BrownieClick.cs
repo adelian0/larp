@@ -30,4 +30,18 @@ public class BrownieClick : MonoBehaviour
         Animator.SetTrigger("Clicked");
         VisualCounter.text = Cookiecounter.ToString();
     } 
+
+    public void OnBrookieClick()
+    {
+        ClickSound.Play();
+        Cookiecounter += 1;
+        Debug.Log(Cookiecounter);
+        Animator.SetTrigger("Clicked");
+        VisualCounter.text = Cookiecounter.ToString();
+    }
+
+    public void BrownieTest()
+    {
+        Debug.Log("Brownie Test");
+    }
 }
