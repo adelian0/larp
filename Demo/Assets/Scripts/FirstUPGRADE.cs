@@ -3,34 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
 public class FirstUPGRADE : MonoBehaviour
 {
     [Header("Components")]
-    public TMP_Text priceText; 
-    public TMP_Text incomeInfoText; 
+    public TMP_Text priceText;
+    public TMP_Text incomeInfoText;
 [Header("Generator values")]
     public int startPrice = 15;
     public float upgradePriceMultiplier;
     public float browniesPerUpgrade = 0.1f;
 
+
     [Header("Managers")]
     public GameManager gameManager;
  
 
+
     int level = 0;
 
-    private void Start(){ 
+
+    private void Start(){
         UpdateUi();
     }
 
+
     public void ClickAction(){
-       int price = CalculatePrice();
-       bool purchaseSuccess = gameManager.PurchaseAction(price);
-       if (purchaseSuccess) {
-            level++;
-            UpdateUi();
-        }
-    }
+        int price = CalculatePrice();}
+       
+
 
     void UpdateUi(){
         priceText.text = CalculatePrice().ToString();
@@ -38,10 +39,13 @@ public class FirstUPGRADE : MonoBehaviour
         // 5 x 0.5/s
     }
 
+
     int CalculatePrice(){
         int Price = Mathf.RoundToInt(startPrice * Mathf.Pow(upgradePriceMultiplier,level));
         return Price;
     }
     float CalculateIncomePerSecond(){
-        return browniesPerUpgrade * level; 
+        return browniesPerUpgrade * level;
      }}
+
+
