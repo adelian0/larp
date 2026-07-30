@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0f63548ca23367941987b80e2e826a6a
+guid: b6b162c0691e26643ac7a390608904e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 532282208441007744
-    second: images (1)_0
+      213: -723457945472813306
+    second: barbers-pole-sign-vector-34534217_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: images (1)_0
+      name: barbers-pole-sign-vector-34534217_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 447
-        height: 447
+        width: 61
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08ef26239db036700800000000000000
-      internalID: 532282208441007744
+      spriteID: 607b826e4d2c5f5f0800000000000000
+      internalID: -723457945472813306
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      images (1)_0: 532282208441007744
+      barbers-pole-sign-vector-34534217_0: -723457945472813306
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
