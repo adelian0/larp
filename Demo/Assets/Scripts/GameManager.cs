@@ -4,11 +4,11 @@ using UnityEngine;
 using TMPro; 
 
 public class GameManager : MonoBehaviour
-{
+{ 
     [SerializeField] TMP_Text countText;
     [SerializeField] TMP_Text incomeText;
     [SerializeField] [StoreUpgrade] storeUpgrade
-    int count = 0;
+     float count = 0;
         float nextTimeCheck = 1;
         float lastIncomeValue = 0;
 
